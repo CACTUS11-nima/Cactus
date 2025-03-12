@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funny Classic Page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Classic Web!</h1>
-    <p>Everything is possible at Zombo.com!</p>
+    <h2>Register</h2>
+    <input type="text" id="reg-username" placeholder="Username">
+    <input type="password" id="reg-password" placeholder="Password">
+    <button onclick="register()">Register</button>
 
-    <!-- Audio Player -->
-    <audio controls autoplay>
-        <source src="bazmande.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag.
-    </audio>
+    <h2>Login</h2>
+    <input type="text" id="login-username" placeholder="Username">
+    <input type="password" id="login-password" placeholder="Password">
+    <button onclick="login()">Login</button>
 
     <script src="script.js"></script>
 </body>
