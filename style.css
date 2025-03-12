@@ -1,14 +1,19 @@
 body {
-    background-color: yellow;
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 50px;
 }
 
-h1 {
-    color: red;
-    text-shadow: 3px 3px 5px blue;
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
 }
 
-p {
-    font-size: 20px;
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
